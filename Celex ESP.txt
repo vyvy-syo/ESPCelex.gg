@@ -16,7 +16,7 @@ local Settings, Celex, Luas, Visuals, Math, Color, GunsTable, ModPowers = {
     },
 
     Universal = {
-        ['Ping Prediction'] = false,
+        ['Ping Prediction'] = true,
 
         ['Resolver'] = {
             ['Enabled'] = true, 
@@ -59,13 +59,13 @@ local Settings, Celex, Luas, Visuals, Math, Color, GunsTable, ModPowers = {
         ['HitParts'] = {"Head", "Torso", "Arms", "Legs"}, -- Head, Torso, Arms, Legs
         ['HitPartType'] = "EEEw", -- "Nearest Part", "Nearest Point"
 
-        ['Visualizer'] = true,
+        ['Visualizer'] = false,
         ['Visualizer_DOT'] = {
-            ['Enabled'] = true, 
+            ['Enabled'] = false, 
             ['Color'] = Color3.fromRGB(0,21,209)
         },
         ['Visualizer_Tracer'] = {
-            ['Enabled'] = true, 
+            ['Enabled'] = false, 
             ['Thickness'] = 0.5, 
             ['Color'] = Color3.fromRGB(0,21,209)
         },
@@ -73,7 +73,7 @@ local Settings, Celex, Luas, Visuals, Math, Color, GunsTable, ModPowers = {
 
     Assist = {
         ['Enabled'] = true,
-        ['Only Enable While Holding Gun'] = false,
+        ['Only Enable While Holding Gun'] = true,
         ['Disable When Typing'] = true,
         ['Disable When Reloading'] = true,
         ['Keybind'] = "K",
